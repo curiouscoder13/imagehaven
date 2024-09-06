@@ -5,6 +5,7 @@
 - [x] Make it deploy (Vercel)
 - [x] Initialize Shadcn UI
 - [x] Scaffold basic UI with mock data
+- [x] Tidy up build process
 - [ ] Actually setup a database (Vercel Postgres)
 - [ ] Attach database to UI
 - [ ] Add authentication (w/ Clerk)
