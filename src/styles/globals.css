@@ -27,8 +27,16 @@ body {
 
 .image-card-content {
   /* crop the image to 16:9 aspect ratio */
-  width: 176px;
-  height: 110px;
+  width: 240px;
+  height: 150px;
   object-fit: cover;
   object-position: center;
+}
+
+@media (max-width: 768px) {
+  .image-card-content {
+    /* crop the image to 16:9 aspect ratio */
+    width: 176px;
+    height: 110px;
+  }
 }

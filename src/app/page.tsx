@@ -12,7 +12,7 @@ async function Images() {
       {images.map((image) => (
         <div
           key={image.id}
-          className="image-card shadow- flex w-48 flex-col items-center bg-white p-2 text-black"
+          className="image-card shadow- flex flex-col items-center bg-white p-2 text-black sm:w-48 md:w-64"
         >
           {/** I would like to limit the width and height of the image and hide the excess use img */}
           <img src={image.url} alt="image" className="image-card-content" />

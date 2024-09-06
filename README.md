@@ -10,7 +10,7 @@
 - [x] Attach database to UI
 - [x] Add authentication (w/ Clerk)
 - [x] Add images to cards
-- [ ] Added hover effect to the image cards
+- [x] Added hover effect to the image cards
 - [ ] Add image upload
 - [ ] "taint" (server-only)
 - [ ] Use Next/Image component
