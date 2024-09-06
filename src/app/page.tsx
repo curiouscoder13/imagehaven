@@ -10,9 +10,15 @@ async function Images() {
   return (
     <div className="flex flex-wrap gap-4">
       {[...images, ...images, ...images].map((image, index) => (
-        <div key={image.id + "-" + index} className="flex w-48 flex-col">
+        <div
+          key={image.id + "-" + index}
+          className="image-card shadow- flex w-48 flex-col items-center bg-white p-2 text-black"
+        >
           <img src={image.url} alt="image" />
-          <div>{image.name}</div>
+          <div className="pt-2">
+            {/** Removed file extension in image name */}
+            {image.name.split(".").slice(0, -1).join(".")}
+          </div>
         </div>
       ))}
     </div>

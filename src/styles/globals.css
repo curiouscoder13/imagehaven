@@ -14,3 +14,7 @@ body {
   background-attachment: fixed;
   min-height: 36rem;
 }
+
+.image-card {
+  border-radius: 0.5em;
+}
