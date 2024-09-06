@@ -14,8 +14,8 @@
 - [x] Add image upload
 - [x] "taint" (server-only)
 - [x] Use Next/Image component
-- [ ] Rectify the landing page to show the full image (can only be done once Next/Image is used)
 - [ ] Error Management ( w/ Sentry)
+- [ ] Rectify the landing page to show the full image (can only be done once Next/Image is used)
 - [ ] Routing/image page (parallel routes)
 - [ ] Delete button (w/ Server Actions)
 - [ ] Analytics (Posthog)
