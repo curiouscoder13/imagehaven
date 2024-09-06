@@ -8,14 +8,17 @@ async function Images() {
     orderBy: (model, { desc }) => desc(model.id),
   });
   return (
-    <div className="flex flex-wrap gap-4">
-      {[...images, ...images, ...images].map((image, index) => (
+    <div className="flex flex-wrap justify-center gap-4">
+      {images.map((image) => (
         <div
-          key={image.id + "-" + index}
+          key={image.id}
           className="image-card shadow- flex w-48 flex-col items-center bg-white p-2 text-black"
         >
-          <img src={image.url} alt="image" />
-          <div className="pt-2">
+          {/** I would like to limit the width and height of the image and hide the excess use img */}
+          <img src={image.url} alt="image" className="image-card-content" />
+
+          {/* <img src={image.url} alt="image" /> */}
+          <div className="pt-2 font-semibold">
             {/** Removed file extension in image name */}
             {image.name.split(".").slice(0, -1).join(".")}
           </div>
