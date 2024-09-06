@@ -2,7 +2,8 @@
 
 ## TODO
 
-- [ ] Make it deploy (Vercel)
+- [x] Make it deploy (Vercel)
+- [ ] Initialize Shadcn UI
 - [ ] Scaffold basic UI with mock data
 - [ ] Actually setup a database (Vercel Postgres)
 - [ ] Attach database to UI
