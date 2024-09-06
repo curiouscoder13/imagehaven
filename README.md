@@ -16,8 +16,8 @@
 - [x] Use Next/Image component
 - [x] Error Management ( w/ Sentry)
 - [x] Rectify the landing page to show the full image (can only be done once Error Management is done)
-- [ ] Rectify close button on modal once modal is finished
-- [ ] Routing/image page (parallel routes)
+- [x] Routing/image page (parallel routes)
 - [ ] Delete button (w/ Server Actions)
+- [ ] Rectify close button on modal once modal is finished
 - [ ] Analytics (Posthog)
 - [ ] Rate limiting (Upstash)
