@@ -6,8 +6,8 @@
 - [x] Initialize Shadcn UI
 - [x] Scaffold basic UI with mock data
 - [x] Tidy up build process
-- [ ] Actually setup a database (Vercel Postgres)
-- [ ] Attach database to UI
+- [x] Actually setup a database (Vercel Postgres)
+- [x] Attach database to UI
 - [ ] Add authentication (w/ Clerk)
 - [ ] Add image upload
 - [ ] Error Management ( w/ Sentry)
