@@ -15,7 +15,9 @@ function TopNav() {
       <a href="/" className="font-mono italic">
         Image<span className="text-sky-300">Haven</span>
       </a>
-      <div>Sign In</div>
+      <div className="cursor-pointer text-lg font-semibold hover:underline">
+        Sign In
+      </div>
     </div>
   );
 }
