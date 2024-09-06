@@ -11,7 +11,7 @@
 - [x] Add authentication (w/ Clerk)
 - [x] Add images to cards
 - [x] Added hover effect to the image cards
-- [ ] Add image upload
+- [x] Add image upload
 - [ ] "taint" (server-only)
 - [ ] Use Next/Image component
 - [ ] Rectify the landing page to show the full image (can only be done once Next/Image is used)
