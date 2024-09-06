@@ -17,7 +17,7 @@
 - [x] Error Management ( w/ Sentry)
 - [x] Rectify the landing page to show the full image (can only be done once Error Management is done)
 - [x] Routing/image page (parallel routes)
+- [x] Rectify close button on modal once modal is finished
 - [ ] Delete button (w/ Server Actions)
-- [ ] Rectify close button on modal once modal is finished
 - [ ] Analytics (Posthog)
 - [ ] Rate limiting (Upstash)
