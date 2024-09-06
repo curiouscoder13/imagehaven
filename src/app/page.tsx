@@ -29,9 +29,9 @@ export default async function HomePage() {
   return (
     <main className="">
       <SignedOut>
-        <div className="background-image flex w-full flex-col items-center justify-center gap-2">
+        <div className="background-image flex w-full flex-col items-center justify-center gap-2 text-center">
           <div className="text-5xl font-semibold">Welcome to ImageHaven</div>
-          <div className="p-2 text-xl">Your personal photo gallery</div>
+          <div className="text-xl">Your personal photo gallery</div>
         </div>
       </SignedOut>
       <SignedIn>
