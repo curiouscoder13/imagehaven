@@ -1,5 +1,6 @@
 import { SignedIn, SignedOut } from "@clerk/nextjs";
 import Image from "next/image";
+import Link from "next/link";
 import { getMyImages } from "~/server/queries";
 
 export const dynamic = "force-dynamic";
@@ -15,13 +16,15 @@ async function Images() {
           className="image-card shadow- flex flex-col items-center bg-white p-2 text-black sm:w-48 md:w-64"
         >
           {/** I would like to limit the width and height of the image and hide the excess use img */}
-          <Image
-            src={image.url}
-            alt="image"
-            className="image-card-content"
-            width={240}
-            height={150}
-          />
+          <Link href={`/img/${image.id}`}>
+            <Image
+              src={image.url}
+              alt="image"
+              className="image-card-content"
+              width={240}
+              height={150}
+            />
+          </Link>
 
           {/* <img src={image.url} alt="image" /> */}
           <div className="pt-2 font-semibold">
