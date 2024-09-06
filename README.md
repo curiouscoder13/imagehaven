@@ -15,8 +15,8 @@
 - [x] "taint" (server-only)
 - [x] Use Next/Image component
 - [x] Error Management ( w/ Sentry)
+- [x] Rectify the landing page to show the full image (can only be done once Error Management is done)
 - [ ] Rectify close button on modal once modal is finished
-- [ ] Rectify the landing page to show the full image (can only be done once Next/Image is used)
 - [ ] Routing/image page (parallel routes)
 - [ ] Delete button (w/ Server Actions)
 - [ ] Analytics (Posthog)
