@@ -18,7 +18,8 @@
 - [x] Rectify the landing page to show the full image (can only be done once Error Management is done)
 - [x] Routing/image page (parallel routes)
 - [x] Rectify close button on modal once modal is finished
-- [ ] ShadUIify (specifically the toast)
-- [ ] Delete button (w/ Server Actions)
+- [x] Update upload button to be less cringe
+- [x] ShadUIify (specifically the toast)
 - [ ] Analytics (Posthog)
+- [ ] Delete button (w/ Server Actions)
 - [ ] Rate limiting (Upstash)
