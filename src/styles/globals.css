@@ -5,3 +5,12 @@
 body {
   @apply bg-black text-white;
 }
+
+.background-image {
+  background-image: url("https://utfs.io/f/79d7c64a-9050-4fb8-a49f-918db70aede2-gcufsv.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 36rem;
+}
