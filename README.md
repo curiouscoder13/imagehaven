@@ -22,5 +22,4 @@
 - [x] ShadUIify (specifically the toast)
 - [x] Analytics (Posthog)
 - [x] Delete button (w/ Server Actions)
-- [ ] Add dialog box to confirm delete
 - [ ] Rate limiting (Upstash)
