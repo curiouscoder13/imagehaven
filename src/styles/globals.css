@@ -22,11 +22,11 @@ body {
 
 @media (max-width: 320px) {
   body::before {
-    content: url("https://utfs.io/f/48c72f8a-323f-456c-bc56-8b517f0481d6-8nyxuw.webp");
+    content: url("https://utfs.io/f/5424a276-8c54-479a-8927-5ef72f8640a0-fhd2cb.webp");
     display: none;
   }
   .background-image {
-    background-image: url("https://utfs.io/f/48c72f8a-323f-456c-bc56-8b517f0481d6-8nyxuw.webp");
+    background-image: url("https://utfs.io/f/5424a276-8c54-479a-8927-5ef72f8640a0-fhd2cb.webp");
   }
 }
 
