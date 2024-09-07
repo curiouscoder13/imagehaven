@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+body::before {
+  content: url("https://utfs.io/f/5654b773-7ef4-4189-93d2-a8a03c85bedc-v1skp.webp");
+  display: none;
+}
+
 body {
   @apply bg-black text-white;
 }
@@ -13,6 +18,16 @@ body {
   background-repeat: no-repeat;
   width: 100vw;
   height: calc(100vh - 60px);
+}
+
+@media (max-width: 320px) {
+  body::before {
+    content: url("https://utfs.io/f/48c72f8a-323f-456c-bc56-8b517f0481d6-8nyxuw.webp");
+    display: none;
+  }
+  .background-image {
+    background-image: url("https://utfs.io/f/48c72f8a-323f-456c-bc56-8b517f0481d6-8nyxuw.webp");
+  }
 }
 
 .image-card {
