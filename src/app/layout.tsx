@@ -28,11 +28,13 @@ export default function RootLayout({
       <CSPostHogProvider>
         <html lang="en" className={`${GeistSans.variable}`}>
           <link
+            fetchPriority="high"
             rel="preload"
             href="https://utfs.io/f/5654b773-7ef4-4189-93d2-a8a03c85bedc-v1skp.webp"
             as="image"
           />
           <link
+            fetchPriority="high"
             rel="preload"
             href="https://utfs.io/f/48c72f8a-323f-456c-bc56-8b517f0481d6-8nyxuw.webp"
             as="image"
