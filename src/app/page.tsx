@@ -41,9 +41,18 @@ export default async function HomePage() {
   return (
     <main className="">
       <SignedOut>
-        <div className="background-image flex w-full flex-col items-center justify-center gap-2 text-center">
-          <div className="text-5xl font-semibold">Welcome to ImageHaven</div>
-          <div className="text-xl">Your personal photo gallery</div>
+        <div className="hero-content flex flex-col items-center justify-center gap-2 text-center">
+          <Image
+            className="bg-img"
+            src={
+              "https://utfs.io/f/5654b773-7ef4-4189-93d2-a8a03c85bedc-v1skp.webp"
+            }
+            alt="image"
+            width={1920}
+            height={1080}
+          />
+          <div className="hero-welcome">Welcome to ImageHaven</div>
+          <div className="hero-detail">Your personal photo gallery</div>
         </div>
       </SignedOut>
       <SignedIn>

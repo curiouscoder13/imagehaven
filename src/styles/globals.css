@@ -2,31 +2,58 @@
 @tailwind components;
 @tailwind utilities;
 
-body::before {
-  content: url("https://utfs.io/f/5654b773-7ef4-4189-93d2-a8a03c85bedc-v1skp.webp");
-  display: none;
-}
-
 body {
   @apply bg-black text-white;
 }
 
-.background-image {
-  background-image: url("https://utfs.io/f/5654b773-7ef4-4189-93d2-a8a03c85bedc-v1skp.webp");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+.bg-img {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  object-position: center;
+  z-index: -1;
+}
+
+.hero-content {
   width: 100vw;
   height: calc(100vh - 60px);
 }
 
-@media (max-width: 320px) {
-  body::before {
-    content: url("https://utfs.io/f/48c72f8a-323f-456c-bc56-8b517f0481d6-8nyxuw.webp");
-    display: none;
+.hero-welcome {
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: 600;
+}
+
+.hero-detail {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+@media (max-width: 768px) {
+  .hero-welcome {
+    font-size: 2.25rem;
+    line-height: 1;
+    font-weight: 600;
   }
-  .background-image {
-    background-image: url("https://utfs.io/f/48c72f8a-323f-456c-bc56-8b517f0481d6-8nyxuw.webp");
+  .hero-detail {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .hero-welcome {
+    font-size: 1.5rem;
+    line-height: 1;
+    font-weight: 600;
+  }
+  .hero-detail {
+    font-size: 0.75rem;
+    line-height: 1.25rem;
   }
 }
 
