@@ -16,6 +16,7 @@ export const metadata: Metadata = {
   title: "ImageHaven",
   description: "A private photo gallery",
   icons: [{ rel: "icon", url: "/favicon.ico" }],
+  viewport: "width=device-width, initial-scale=1",
 };
 
 export default function RootLayout({
@@ -26,6 +27,16 @@ export default function RootLayout({
     <ClerkProvider>
       <CSPostHogProvider>
         <html lang="en" className={`${GeistSans.variable}`}>
+          <link
+            rel="preload"
+            href="https://utfs.io/f/5654b773-7ef4-4189-93d2-a8a03c85bedc-v1skp.webp"
+            as="image"
+          />
+          <link
+            rel="preload"
+            href="https://utfs.io/f/48c72f8a-323f-456c-bc56-8b517f0481d6-8nyxuw.webp"
+            as="image"
+          />
           <NextSSRPlugin
             /**
              * The `extractRouterConfig` will extract **only** the route configs
