@@ -20,6 +20,7 @@
 - [x] Rectify close button on modal once modal is finished
 - [x] Update upload button to be less cringe
 - [x] ShadUIify (specifically the toast)
-- [ ] Analytics (Posthog)
-- [ ] Delete button (w/ Server Actions)
+- [x] Analytics (Posthog)
+- [x] Delete button (w/ Server Actions)
+- [ ] Add dialog box to confirm delete
 - [ ] Rate limiting (Upstash)

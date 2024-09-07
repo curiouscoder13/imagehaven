@@ -102,3 +102,15 @@ dialog {
     transform: rotate(360deg);
   }
 }
+
+.delete-image-btn {
+  background-color: crimson;
+  color: white;
+  width: 100%;
+  height: 2.5rem;
+  border-radius: 0.5em;
+}
+
+.delete-image-btn:hover {
+  background-color: rgb(200, 100, 100);
+}
